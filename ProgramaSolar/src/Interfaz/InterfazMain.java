@@ -1,4 +1,4 @@
-package Interfaz;
+package interfaz;
 
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
@@ -8,11 +8,6 @@ import javax.swing.*;
 
 public class InterfazMain {
 	
-	public static void main(String[] args) {
-		InterfazMain interfaz = new InterfazMain();
-		interfaz.desplegarInterfaz();
-	}
-
 	JButton[] botones;
 	boolean[] habilitados;
 	
